@@ -30,6 +30,31 @@ a "Repository Name" agregarle el mismo nombre que tiene en VSC.
 	(ángulo inferior izquierdo de la GUI de VSC)
 
 
+Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
+--------------------------------------------------------------------------
+
+1) Ingresar a GitHub.com en la sección "Clone with HTTPS" del repositorio y obtener la URL
+2) Abrir una terminal de Windows (cmd)
+3) Dirigirse a la carpeta de trabajo (cd)
+4) Escribir :
+
+	> git clone "URL Obtenida" 
+	> git config --global user.name "UsuarioGitHub"
+	> git config --global user.email "EmailDeRegistroEnGitHub"
+
+	Nota: se creará un carpeta con el nombre del Repositorio Remoto dentro de la carpeta
+	de trabajo
+
+5) en VSCode abrir la carpeta del Repositorio clonado
+6) Abrir una terminal (cmd) y escribir
+
+	> git add .
+	> git commit "Leyenda/Comentario"
+	> git push
+
+	o bien:
+	
+	> git pull
 
 Para Actualizar un Repositorio Remoto Existente
 -----------------------------------------
