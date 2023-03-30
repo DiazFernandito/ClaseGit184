@@ -16,9 +16,9 @@ Para crear un nuevo Repositorio Remoto
 --------------------------------------
 
 1) En GitHub.com, seleccionar "New Repository" y en la casilla correspondiente
-a "Repository Name" agregarle el mismo nombre que tiene en VSC.
+a "Repository Name" agregarle el mismo nombre que tiene en VSCode.
 
-2) En la Terminal de VSC
+2) En la Terminal de VSCode
 
 	2.1) git init
 	2.2) git add .
@@ -26,8 +26,8 @@ a "Repository Name" agregarle el mismo nombre que tiene en VSC.
 	2.4) git remote add origin https://github.com/DiazFernandito/NombreDelRepositorioGit
 	2.5) git push -u origin master(*)
 
-	(*) el "master" se refiere al nombre de la rama principal del proyecto en VSC
-	(ángulo inferior izquierdo de la GUI de VSC)
+	(*) el "master" se refiere al nombre de la rama principal del proyecto en VSCode
+	(ángulo inferior izquierdo de la GUI de VSCode)
 
 
 Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
@@ -57,7 +57,7 @@ Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
 Para Actualizar un Repositorio Remoto Existente
 -----------------------------------------
 
-1) En la Terminal de VSC
+1) En la Terminal de VSCode
 
 	1.1) git add .
 	1.2) git commit -m "Leyenda/Comentario"
@@ -67,7 +67,7 @@ Para Actualizar un Repositorio Remoto Existente
 Para Actualizar el Repostorio Local desde un Remoto
 ---------------------------------------------------
 
-1) En la Terminal de VSC
+1) En la Terminal de VSCode
 
 	1.1) git pull
 
