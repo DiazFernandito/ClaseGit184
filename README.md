@@ -39,8 +39,6 @@ Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
 4) Escribir :
 
 	> git clone "URL Obtenida" 
-	> git config --global user.name "UsuarioGitHub"
-	> git config --global user.email "EmailDeRegistroEnGitHub"
 
 	Nota: se creará un carpeta con el nombre del Repositorio Remoto dentro de la carpeta
 	de trabajo
