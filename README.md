@@ -4,8 +4,7 @@ Configuración inicial de GIT
 ------------------------------
 
 1) Descargar e instalar GIT desde http://git-scm.com
-2) Con el proyecto abierto en VSC, abrir la Terminal, preferentemente CMD,
-y ejecutar:
+2) Abrir una Terminal, preferentemente CMD y ejecutar:
 
 	2.1) git config --global user.name "UsuarioGitHub"
 	2.2) git config --global user.email "EmailDeRegistroEnGitHub"
@@ -18,7 +17,7 @@ Para crear un nuevo Repositorio Remoto
 1) En GitHub.com, seleccionar "New Repository" y en la casilla correspondiente
 a "Repository Name" agregarle el mismo nombre que tiene en VSCode.
 
-2) En la Terminal de VSCode
+2) Estando con el proyexto abierto, abrir una Terminal en VSCode (CMD) y ejecutar:
 
 	2.1) git init
 	2.2) git add .
@@ -34,7 +33,7 @@ Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
 --------------------------------------------------------------------------
 
 1) Ingresar a GitHub.com en la sección "Clone with HTTPS" del repositorio y obtener la URL
-2) Abrir una terminal de Windows (cmd)
+2) Abrir una Terminal, preferentemente CMD 
 3) Dirigirse a la carpeta de trabajo (cd)
 4) Escribir :
 
@@ -44,7 +43,7 @@ Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
 	de trabajo
 
 5) en VSCode abrir la carpeta del Repositorio clonado
-6) Abrir una terminal (cmd) y escribir
+6) Abrir una Terminal, preferentemente CMD y ejecutar:
 
 	6.1) git add .
 	6.2) git commit "Leyenda/Comentario"
@@ -57,7 +56,7 @@ Para conectarse desde una nueva terminal a un Repositorio Remoto Existente
 Para Actualizar un Repositorio Remoto Existente
 -----------------------------------------
 
-1) En la Terminal de VSCode
+1) Estando con el proyexto abierto, abrir una Terminal en VSCode (CMD) y ejecutar:
 
 	1.1) git add .
 	1.2) git commit -m "Leyenda/Comentario"
@@ -67,7 +66,7 @@ Para Actualizar un Repositorio Remoto Existente
 Para Actualizar el Repostorio Local desde un Remoto
 ---------------------------------------------------
 
-1) En la Terminal de VSCode
+1) Estando con el proyexto abierto, abrir una Terminal en VSCode (CMD) y ejecutar:
 
 	1.1) git pull
 
